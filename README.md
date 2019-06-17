@@ -43,4 +43,5 @@ ecs-deploy -r us-east-1 -c  service-cluster -n hello-world -i ${account_number}.
 
 ## Output Images
 
-![Create user with response code 204 No Content](https://github.com/sagar-babar/Hello-World/blob/master/output-images/1.png "Create user with response code 204 No Content")
+**Create user with response code 204 No Content**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/1.png)

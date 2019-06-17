@@ -45,3 +45,22 @@ ecs-deploy -r us-east-1 -c  service-cluster -n hello-world -i ${account_number}.
 
 **Create user with response code 204 No Content**
 ![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/1.png)
+
+**Validation: User not available**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/7.png)
+
+**Validation: User name must contains only letters**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/2.png)
+
+**Validation: DOB should be before todays date**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/3.png)
+
+**User Output: Number of days for Birthday**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/4.png)
+
+**User Output: Today Birthday**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/5.png)
+
+**User Output: Today Birthday**
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/5.png)
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/6.png)

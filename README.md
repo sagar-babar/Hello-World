@@ -1,6 +1,17 @@
 # HTTP-based API "Hello-World"
 
 ## System Diagram
+![](https://github.com/sagar-babar/Hello-World/blob/master/output-images/system-diagram.png)
+
+### Description
+
+- **ECS Cluster**      : Ecs cluster is used to deploy Hello-World project with ecs service(as container) with HA.
+- **Jenkins**             : Jenkins is used to deploy Hello-World service using ecs-deploy(Which will be Blue-Green deployment with no downtime)
+- **VPN**                   : Used vpn to access infrastructure. Because, all infrastructure is in private subnet (ECS cluster , Jenkins and DB)
+- **RDS(Postgres)** : Used postgres db (RDS), given access to only ecs service for it.
+- **ALB**                   : An Application Load Balancer makes routing decisions at the application layer (HTTP/HTTPS), supports path-based routing, and can                                       route  requests to one or more ports on each container instance in your cluster.
+- **NAT**                   : You can use a network address translation (NAT) gateway to enable instances in a private subnet to connect to the internet or other AWS                               services, but prevent the internet from initiating a connection with those instances.
+- **AWS Route 53**  : Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service.
 
 #### Install dependencies
 ```bash
